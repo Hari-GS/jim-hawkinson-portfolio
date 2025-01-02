@@ -1,0 +1,40 @@
+import React from 'react';
+
+const AcademicProjects = () => {
+    const projects = [
+        "ANTI CANCER DRUG FLOW INFUSION SYSTEM",
+        "EQUIPMENT INFORMATION SYSTEM",
+        "IMPLEMENTATION OF SMART WIRELESS NETWORKING FOR TEMPERATURE MEASUREMENT AND CONTROL",
+        "CAN BASED CAR SECURITY SYSTEM",
+        "ATM FOR VISUALLY IMPAIRED",
+        "GSM BASED INDUSTRIAL AUTOMATION",
+        "ZIGBEE BASED INDUSTRIAL PROCESS MONITORING AND CONTROL",
+        "REDUCED TRANSITION PIPELINING FOR DIGITAL SIGNAL PROCESSING APPLICATIONS",
+        "BLOOD VESSEL SEGMENTATION IN ANGIOGRAM USING K-MEANS ALGORITHM",
+        "GENETIC ALGORITHM BASED PWM CONTROLLER FOR HARMONIC REDUCTION IN NON LINEAR LOADS",
+        "PERFORMANCE COMPARISON OF CMOS AND FinFET FOR VLSI APPLICATIONS",
+        "A NOVEL 3-D COLOUR HISTOGRAM EQUALIZATION WITH UNIFORM 1-D GRAY SCALE HISTOGRAM",
+        "AUTOMATIC SPEED CONTROL OF VEHICLES IN ACCIDENTAL ZONES",
+        "INTELLIGENT BLOOD COLLECTING APPARATUS BASED ON INTERNET WORKING",
+        "SELF DISPOSAL & LOCK METHOD FOR EXPIRED CONSUMER PRODUCTS",
+        "PERFORMANCE ANALYSIS AND COMPARISON OF DRAM FOR CMOS AND FinFET TECHNOLOGIES",
+        "STEREO TO BINAURAL CONVERSION",
+        "SMART TRAFFIC LIGHT CONVERTOR",
+        "MODELLING AND SIMULATION OF FinFET SRAM BEYOND CMOS TECHNOLOGIES"
+    ];
+
+    return (
+        <div className="md:p-16 p-4 pt-16">
+            <h1 className="md:text-3xl text-xl font-bold text-gray-800 mb-6">Academic Projects</h1>
+            <ul className="list-disc list-inside">
+                {projects.map((project, index) => (
+                    <li key={index} className="md:text-lg mb-2">
+                        {project}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+};
+
+export default AcademicProjects;
