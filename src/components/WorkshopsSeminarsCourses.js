@@ -57,6 +57,12 @@ const WorkshopsSeminarsCourses = () => {
       date: '8th December 2007',
       organizer: 'Dept of ECE, Karpagam College of Engineering, Coimbatore',
     },
+    {
+      title: 'A Efficient Approach of Image Steganography Using Advanced Encryption System and Deep Neural Network',
+      date: '26-27 April 2024',
+      organizer: 'S. Jim Hawkinson; A. Sundar Raj; S. Senthilkumar; R. Muthaiyan; K. Balasubramaniyan; M. Chinnadurai'
+    }
+    
   ];
 
   return (

@@ -59,6 +59,12 @@ const PapersPresented = () => {
       conference: 'International seminar on innovation – the corporate mantra in the era of globalization',
       date: '26th October 2007',
     },
+    {
+      title: 'International Seminar on Innovation – The Corporate Mantra in the Era of Globalization',
+      conference: '2024 Third International Conference on Distributed Computing and Electrical Circuits and Electronics (ICDCECE)',
+      date: '26-27 April 2024'
+    }
+    
   ];
 
   return (
